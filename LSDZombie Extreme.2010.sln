@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSDZombie Extreme", "LSDZombie Extreme\LSDZombie Extreme.csproj", "{51AEAB72-D477-4009-A9DB-B42CFD37D4C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSDZombie Extreme", "LSDZombie-Extreme\LSDZombie Extreme.csproj", "{51AEAB72-D477-4009-A9DB-B42CFD37D4C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMapEdit", "EasyMapEdit\EasyMapEdit.csproj", "{6AE52B04-20CF-48BA-B411-2BB760CEAEF6}"
 EndProject
