@@ -7,8 +7,8 @@ using System.Runtime.InteropServices;
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("EasyMapEdit")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("PubX")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("PubX")]
 [assembly: AssemblyProduct("LSDZombie")]
 [assembly: AssemblyCopyright("Copyright © PubX 2013")]
 [assembly: AssemblyTrademark("")]
