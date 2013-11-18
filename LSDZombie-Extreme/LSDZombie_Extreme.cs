@@ -732,14 +732,11 @@ namespace LSDZombie
             if (Unitily.GetPlayerTeam(player) == "axis")
             {
                 player.Call("clearperks");
-                if (player.CurrentWeapon.StartsWith("iw5_g36c_mp"))
-                {
-                    player.TakeAllWeapons();
-                    player.GiveWeapon("iw5_usp45_mp_tactical");
-                    player.SwitchToWeapon("iw5_usp45_mp_tactical");
-                    player.Call("setWeaponAmmoClip", "iw5_usp45_mp_tactical", "0");
-                    player.Call("setWeaponAmmoStock", "iw5_usp45_mp_tactical", "0");
-                }
+                player.TakeAllWeapons();
+                player.GiveWeapon("iw5_usp45_mp_tactical");
+                player.SwitchToWeapon("iw5_usp45_mp_tactical");
+                player.Call("setWeaponAmmoClip", "iw5_usp45_mp_tactical", "0");
+                player.Call("setWeaponAmmoStock", "iw5_usp45_mp_tactical", "0");
                 player.SetField("maxhealth", 150);
                 player.Health = 150;
                 OnInterval(100, () =>
@@ -778,7 +775,7 @@ namespace LSDZombie
                 player.TakeAllWeapons();
                 player.Call("clearperks");
                 player.GiveWeapon(handguns[num]);
-                player.SwitchToWeaponImmediate(handguns[num]);
+                player.SwitchToWeapon(handguns[num]);
                 player.Call("givemaxammo", handguns[num]);
 
                 player.Call("unsetperk", "specialty_delaymine");
